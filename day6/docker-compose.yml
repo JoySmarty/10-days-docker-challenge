@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  frontend:
+    image: nginx
+    ports:
+      - "8084:80"
+
+  backend:
+    image: nginx
